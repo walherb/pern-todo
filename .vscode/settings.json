@@ -1,5 +1,5 @@
 {
-  "workbench.settings.useSplitJSON": ,"workbench.colorCustomizations": {
+  "workbench.colorCustomizations": {
     "editorLineNumber.foreground": "#00ff00"
-}
+  }
 }
