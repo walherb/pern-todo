@@ -1,5 +1,6 @@
 //! Coding Addict -- { :YouTube }
 //! reactjs.org, react.dev
+//! Install Quokka.js
 // Vite -- Next Generation Frontend Tooling { better create-react-app }
 // npx create-react-app tutorial
 // npx create-react-app@latest tutorial {:Incase the 1st one doesn't work also helps i initiate git repo}
@@ -31,8 +32,7 @@
 
 // JSX Rules
 // 1.Should return only one element
-return <>...</>;
-shorthand;
+// return <>...</>; shorthand;
 // 2.camelCase property naming convention
 // 3.className instead of class
 // 4.close every element
@@ -44,9 +44,52 @@ shorthand;
 // Book List
 // JSX - JavaScript
 // { Video: Javascript Nuggets - Destructuring (object) }
-// { Video: Javascript Nuggets - Map }
+
+// { Video: Javascript Nuggets - Map } moment --> npm package for dates & time
+// https://www.youtube.com/watch?v=f_sEWa5hA0Q
+const people = [
+  {
+    name: 'bob',
+    age: 20,
+    position: 'developer',
+  },
+  {
+    name: 'anna',
+    age: 25,
+    position: 'designer',
+  },
+  {
+    name: 'susy',
+    age: 30,
+    position: 'the boss',
+  },
+  {
+    name: 'john',
+    age: 26,
+    position: 'intern',
+  },
+];
+
+const ages = people.map((person) => {
+  return person.age * 2;
+});
+console.log(ages);
+
+const newPeople = people.map((person) => {
+  return {
+    firstName: person.name.toUpperCase(),
+    oldAge: person.age + 20,
+  };
+});
+console.log(newPeople);
+
+const names = people.map((person) => `<h2>${person.name}</h2>`);
+const result = document.querySelector('#result');
+result.innerHTML = names.join('');
+
 // { Video: Javascript Nuggets - Spread Operator }
-// [React Events] (https://reactjs.org/docs/events.html)
+// [ React Events] (https://reactjs.org/docs/events.html)
+// [ Video: JavaScript Nuggets - Destructuring (Array) ]
 // { Video: Javascript Nuggets - Filter and Find }
 
 // npm run build
@@ -113,8 +156,7 @@ git push -u origin main
 
 @Stopped at Video: 91
 
-!CSS
-Coding Addict - [Default Starter Video](https://youtu.be/UDdyGNlQK5w)
-Repo - [Default Starter Repo](https://github.com/john-smilga/default-starter)
+
+
 
 */
