@@ -113,7 +113,8 @@ git push -u origin main
 
 @Stopped at Video: 91
 
-
-
+!CSS
+Coding Addict - [Default Starter Video](https://youtu.be/UDdyGNlQK5w)
+Repo - [Default Starter Repo](https://github.com/john-smilga/default-starter)
 
 */
