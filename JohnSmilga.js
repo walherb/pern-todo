@@ -112,14 +112,12 @@ git branch -M main
 git remote add origin https://github.com/walherb/temp-backroads-app.git
 git push -u origin main
 
-
 @used
 …or push an existing repository from the command line
 git remote add origin https://github.com/walherb/temp-backroads-app.git
 git branch -M main
 git push -u origin main
-
- */
+*/
 
 //! Project Deployment --
 /*
@@ -156,7 +154,9 @@ git push -u origin main
 
 @Stopped at Video: 91
 
-
+!CSS
+Coding Addict - [Default Starter Video](https://youtu.be/UDdyGNlQK5w)
+Repo - [Default Starter Repo](https://github.com/john-smilga/default-starter)
 
 
 */
