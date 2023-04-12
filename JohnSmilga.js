@@ -46,7 +46,8 @@ shorthand;
 // { Video: Javascript Nuggets - Destructuring (object) }
 // { Video: Javascript Nuggets - Map }
 // { Video: Javascript Nuggets - Spread Operator }
-// [React Events] (https://reactjs.org/docs/events.html)
+// [ React Events] (https://reactjs.org/docs/events.html)
+// [ Video: JavaScript Nuggets - Destructuring (Array) ]
 // { Video: Javascript Nuggets - Filter and Find }
 
 // npm run build
@@ -112,8 +113,4 @@ git push -u origin main
 [JavaScript Nuggets - Filter and Find]
 
 @Stopped at Video: 91
-
-
-
-
 */
